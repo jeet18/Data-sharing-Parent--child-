@@ -1,0 +1,33 @@
+<app-child-component [parentData]="ParentData"></app-child-component>
+
+<h1>Hello I am Parent Class</h1>
+
+<hr />
+
+<!-- <div fxLayout="row" style="height: 75px; background-color: #74fd86;">
+  <div
+    fxFlex="0"
+    fxFlexOffset="0"
+    style="background-color: #b5ffbf"
+    fxLayoutAlign="center center"
+    *ngFor="let data of ParentData"
+  >
+    <button class="btn" (click)="sendMoney(data.name)">
+      Send Money to {{ data.name }}
+    </button>
+  </div>
+</div> -->
+
+<div fxLayout="row" style="height: 75px; background-color: #74fd86;">
+  <div
+    fxFlex="0"
+    fxFlexOffset="0"
+    style="background-color: #b5ffbf"
+    fxLayoutAlign="center center"
+    *ngFor="let data of ParentData"
+  >
+    <button class="btn1" (click)="getMoney(data.name)">
+      Get Money From {{ data.name }}
+    </button>
+  </div>
+</div>

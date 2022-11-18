@@ -1,0 +1,19 @@
+{
+  "_UserData": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "money": 10
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "money": 20
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "money": 50
+    }
+  ]
+}
